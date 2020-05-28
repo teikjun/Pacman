@@ -1,0 +1,8 @@
+// level 1
+python pacman.py -p PacmanQAgent -x 2000 -n 2010 -l smallGrid
+
+// level 3 medium
+python pacman.py -p ApproximateQAgent -a extractor=NewExtractor -x 50 -n 60 -l mediumClassic
+
+// level 3 original
+python pacman.py -p ApproximateQAgent -a extractor=NewExtractor -x 50 -n 60 -l originalClassic
